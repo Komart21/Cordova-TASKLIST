@@ -13,20 +13,21 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <!-- Tu contenido aquí -->
+    <!-- Contenedor de la tasklist -->
     <div id="tasklist-container">
         <h2>Tasklist</h2>
         <ul id="tasklist">
-            <li>FER LA COMPRA <button class="edit">edit</button><button class="delete">X</button></li>
-            <li>ACABAR EXERCICI TASKLIST <button class="edit">edit</button><button class="delete">X</button></li>
-            <li>TRUCAR AL METGE <button class="edit">edit</button><button class="delete">X</button></li>
+            <!-- Ejemplo de tareas existentes -->
+            <li>FER LA COMPRA</li>
+            <li>ACABAR EXERCICI TASKLIST</li>
+            <li>TRUCAR AL METGE</li>
         </ul>
-        <button id="addTask">+</button>
+        <button id="addTask">+</button> <!-- Botón para añadir nuevas tareas -->
     </div>
 
     <!-- Diálogo jQuery UI -->
-    <div id="taskDialog" title="Add Task" style="display:none;">
-        <label for="taskInput">Task: </label>
+    <div id="taskDialog" title="Añadir Tarea" style="display:none;">
+        <label for="taskInput">Tarea: </label>
         <input type="text" id="taskInput">
     </div>
 
