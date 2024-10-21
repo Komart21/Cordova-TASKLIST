@@ -1,0 +1,23 @@
+#tasklist-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#tasklist li {
+    padding: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
